@@ -119,12 +119,32 @@ Permite:
 * git reset HEAD^
 * git rebase --continue
 
-### Comandos alias
+## Remote
+
+* git remote add <remote> <url>           //Te permite añadir un nuevo origen remoto
+* git remote -v                           //Te permite ver los origenes que hay agregados a la máquina
+
+### Pull
+
+* git pull <remote> <branch>              //Te permite traer los últimos cambios del repositorio de una rama determinada
+* git fetch                                  //Permite realizar un merge no automático
+   * git pull
+### Push
+
+* git push -f <remote> <branch>              //Te permite subir los últimos cambios a una determinada rama de manera forzada
+* git push -u <remote> <branch>              //Te permite subir los últimos cambios a una determinada rama y especificar como predeterminada la rama <branch>
+   * git push --tags                         //Te permite añadir todos los tags creados localmente
+   
+### Clonar repositorio
+
+* git clone <url>
+   
+## Comandos alias
 
 * git config --global alias.lg "log --oneline --decorate --all --graph"   //Ejemplo de alias para log [git lg]
 * git config --global alias.s "status -s -b"                              //Ejemplo de alias para status [git s]
 
-### Ignorar archivos
+## Ignorar archivos
 
 Crear .gitignore
 
