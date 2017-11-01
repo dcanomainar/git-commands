@@ -130,6 +130,11 @@ Crear .gitignore
 
 Añadir linea por línea los archivos que se van a ignorar, y hacer commit de .gitignore para que se guarde en el repositorio. 
 Ejemplo:
+
     1. *.log
     2. data.log
     3. data/
+    
+ # For more help with markdown
+ 
+ [Markdown](https://guides.github.com/features/mastering-markdown/)
