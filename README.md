@@ -61,6 +61,7 @@ sin perder ningun cambio
 
 * git branch ramaX                        //Permite crear una rama
     * git branch                              //Permite ver las ramas que hay actualmente creadas
+    * git branch -a                           //Permite ver las ramas que hay actualmente creadas junto con las remotas
     * git checkout ramaX                      //Permite cambiarte a una rama determinada
     * git checkout -b ramaX                   //Permite crear y moverse a la rama creada a la vez
     * git branch -d ramaX                     //Permite borrar una rama
