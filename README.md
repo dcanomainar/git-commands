@@ -65,6 +65,7 @@ sin perder ningun cambio
     * git checkout ramaX                      //Permite cambiarte a una rama determinada
     * git checkout -b ramaX                   //Permite crear y moverse a la rama creada a la vez
     * git branch -d ramaX                     //Permite borrar una rama
+    * git checkout -b ramaX origin/ramaX    //Permite cambiarte a una rama que se encuentra en el servidor remoto
 * git remote update origin --prune        // Permite borrar la lista de todas las ramas remotas que existan en local
 
 * git diff ramaX master                   //Permite ver las diferencias entre dos ramas    
